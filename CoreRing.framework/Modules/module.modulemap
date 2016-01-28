@@ -1,0 +1,6 @@
+framework module CoreRing {
+  umbrella header "CoreRing.h"
+
+  export *
+  module * { export * }
+}

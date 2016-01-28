@@ -1,15 +1,33 @@
-//
-//  ViewController.h
-//  Movie
-//
-//  Created by Keigo Fujikawa on 2015/11/25.
-//  Copyright © 2015年 Keigo Fujikawa. All rights reserved.
-//
-
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+#import <Foundation/Foundation.h>
+#import <CoreMedia/CoreMedia.h>
+#import <AVFoundation/AVFoundation.h>
 
+#import <AssetsLibrary/AssetsLibrary.h>
+#define CAPTURE_FRAMES_PER_SECOND       20
+
+@interface ViewController : UIViewController
+<AVCaptureFileOutputRecordingDelegate>
+{
+    BOOL WeAreRecording;
+    
+    AVCaptureSession *CaptureSession;
+    AVCaptureMovieFileOutput *MovieFileOutput;
+    AVCaptureDeviceInput *VideoInputDevice;
+}
+
+@property (retain) AVCaptureVideoPreviewLayer *PreviewLayer;
+
+- (void) CameraSetOutputProperties;
+- (AVCaptureDevice *) CameraWithPosition:(AVCaptureDevicePosition) Position;
+
+// 録画を始めたり終えたりするイベント
+- (void)StartStopButtonPressed;
+
+// Back CameraとFront Cameraを切り替えるやつ
+- (void)CameraToggleButtonPressed;
 
 @end
+
 

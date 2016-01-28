@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		498CCA691C11653800B8276A /* bright.png in Resources */ = {isa = PBXBuildFile; fileRef = 498CCA611C11653800B8276A /* bright.png */; };
+		498CCA6A1C11653800B8276A /* effect.png in Resources */ = {isa = PBXBuildFile; fileRef = 498CCA621C11653800B8276A /* effect.png */; };
+		498CCA6B1C11653800B8276A /* finish.png in Resources */ = {isa = PBXBuildFile; fileRef = 498CCA631C11653800B8276A /* finish.png */; };
+		498CCA6C1C11653800B8276A /* recMark.png in Resources */ = {isa = PBXBuildFile; fileRef = 498CCA641C11653800B8276A /* recMark.png */; };
+		498CCA6D1C11653800B8276A /* release.png in Resources */ = {isa = PBXBuildFile; fileRef = 498CCA651C11653800B8276A /* release.png */; };
+		498CCA6E1C11653800B8276A /* rotation.png in Resources */ = {isa = PBXBuildFile; fileRef = 498CCA661C11653800B8276A /* rotation.png */; };
+		498CCA6F1C11653800B8276A /* shoot.png in Resources */ = {isa = PBXBuildFile; fileRef = 498CCA671C11653800B8276A /* shoot.png */; };
+		498CCA701C11653800B8276A /* tap.png in Resources */ = {isa = PBXBuildFile; fileRef = 498CCA681C11653800B8276A /* tap.png */; };
+		498CCA721C117EF900B8276A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 498CCA711C117EF900B8276A /* AudioToolbox.framework */; };
 		4997FE471C05C3EA000DFDC2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4997FE461C05C3EA000DFDC2 /* main.m */; };
 		4997FE4A1C05C3EA000DFDC2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4997FE491C05C3EA000DFDC2 /* AppDelegate.m */; };
 		4997FE4D1C05C3EA000DFDC2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4997FE4C1C05C3EA000DFDC2 /* ViewController.m */; };
@@ -15,6 +24,14 @@
 		4997FE551C05C3EA000DFDC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4997FE531C05C3EA000DFDC2 /* LaunchScreen.storyboard */; };
 		4997FE601C05C3EA000DFDC2 /* MovieTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4997FE5F1C05C3EA000DFDC2 /* MovieTests.m */; };
 		4997FE6B1C05C3EB000DFDC2 /* MovieUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4997FE6A1C05C3EB000DFDC2 /* MovieUITests.m */; };
+		4997FE791C05C412000DFDC2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4997FE781C05C412000DFDC2 /* AVFoundation.framework */; };
+		4997FE7B1C05C41B000DFDC2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4997FE7A1C05C41B000DFDC2 /* Foundation.framework */; };
+		4997FE7D1C05C424000DFDC2 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4997FE7C1C05C424000DFDC2 /* CoreMedia.framework */; };
+		4997FE7F1C05C42C000DFDC2 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4997FE7E1C05C42C000DFDC2 /* CoreVideo.framework */; };
+		4997FE811C05C434000DFDC2 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4997FE801C05C434000DFDC2 /* AssetsLibrary.framework */; };
+		4997FE881C05D691000DFDC2 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4997FE871C05D691000DFDC2 /* CoreBluetooth.framework */; };
+		4997FE891C05D6F7000DFDC2 /* CoreRing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4997FE821C05D409000DFDC2 /* CoreRing.framework */; };
+		4997FE8B1C05D708000DFDC2 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4997FE8A1C05D708000DFDC2 /* libsqlite3.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +52,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		498CCA611C11653800B8276A /* bright.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bright.png; path = Resource/bright.png; sourceTree = "<group>"; };
+		498CCA621C11653800B8276A /* effect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = effect.png; path = Resource/effect.png; sourceTree = "<group>"; };
+		498CCA631C11653800B8276A /* finish.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = finish.png; path = Resource/finish.png; sourceTree = "<group>"; };
+		498CCA641C11653800B8276A /* recMark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = recMark.png; path = Resource/recMark.png; sourceTree = "<group>"; };
+		498CCA651C11653800B8276A /* release.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = release.png; path = Resource/release.png; sourceTree = "<group>"; };
+		498CCA661C11653800B8276A /* rotation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rotation.png; path = Resource/rotation.png; sourceTree = "<group>"; };
+		498CCA671C11653800B8276A /* shoot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = shoot.png; path = Resource/shoot.png; sourceTree = "<group>"; };
+		498CCA681C11653800B8276A /* tap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tap.png; path = Resource/tap.png; sourceTree = "<group>"; };
+		498CCA711C117EF900B8276A /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		4997FE421C05C3EA000DFDC2 /* Movie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Movie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4997FE461C05C3EA000DFDC2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4997FE481C05C3EA000DFDC2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +77,14 @@
 		4997FE661C05C3EA000DFDC2 /* MovieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4997FE6A1C05C3EB000DFDC2 /* MovieUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MovieUITests.m; sourceTree = "<group>"; };
 		4997FE6C1C05C3EB000DFDC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4997FE781C05C412000DFDC2 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		4997FE7A1C05C41B000DFDC2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4997FE7C1C05C424000DFDC2 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		4997FE7E1C05C42C000DFDC2 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		4997FE801C05C434000DFDC2 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		4997FE821C05D409000DFDC2 /* CoreRing.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CoreRing.framework; sourceTree = "<group>"; };
+		4997FE871C05D691000DFDC2 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		4997FE8A1C05D708000DFDC2 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +92,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				498CCA721C117EF900B8276A /* AudioToolbox.framework in Frameworks */,
+				4997FE8B1C05D708000DFDC2 /* libsqlite3.tbd in Frameworks */,
+				4997FE881C05D691000DFDC2 /* CoreBluetooth.framework in Frameworks */,
+				4997FE811C05C434000DFDC2 /* AssetsLibrary.framework in Frameworks */,
+				4997FE7F1C05C42C000DFDC2 /* CoreVideo.framework in Frameworks */,
+				4997FE7D1C05C424000DFDC2 /* CoreMedia.framework in Frameworks */,
+				4997FE891C05D6F7000DFDC2 /* CoreRing.framework in Frameworks */,
+				4997FE7B1C05C41B000DFDC2 /* Foundation.framework in Frameworks */,
+				4997FE791C05C412000DFDC2 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,9 +121,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		498CCA601C11651800B8276A /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				498CCA611C11653800B8276A /* bright.png */,
+				498CCA621C11653800B8276A /* effect.png */,
+				498CCA631C11653800B8276A /* finish.png */,
+				498CCA641C11653800B8276A /* recMark.png */,
+				498CCA651C11653800B8276A /* release.png */,
+				498CCA661C11653800B8276A /* rotation.png */,
+				498CCA671C11653800B8276A /* shoot.png */,
+				498CCA681C11653800B8276A /* tap.png */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
 		4997FE391C05C3EA000DFDC2 = {
 			isa = PBXGroup;
 			children = (
+				498CCA711C117EF900B8276A /* AudioToolbox.framework */,
+				4997FE8A1C05D708000DFDC2 /* libsqlite3.tbd */,
+				4997FE871C05D691000DFDC2 /* CoreBluetooth.framework */,
+				4997FE821C05D409000DFDC2 /* CoreRing.framework */,
+				4997FE801C05C434000DFDC2 /* AssetsLibrary.framework */,
+				4997FE7E1C05C42C000DFDC2 /* CoreVideo.framework */,
+				4997FE7C1C05C424000DFDC2 /* CoreMedia.framework */,
+				4997FE7A1C05C41B000DFDC2 /* Foundation.framework */,
+				4997FE781C05C412000DFDC2 /* AVFoundation.framework */,
 				4997FE441C05C3EA000DFDC2 /* Movie */,
 				4997FE5E1C05C3EA000DFDC2 /* MovieTests */,
 				4997FE691C05C3EB000DFDC2 /* MovieUITests */,
@@ -101,6 +168,7 @@
 		4997FE441C05C3EA000DFDC2 /* Movie */ = {
 			isa = PBXGroup;
 			children = (
+				498CCA601C11651800B8276A /* Resource */,
 				4997FE481C05C3EA000DFDC2 /* AppDelegate.h */,
 				4997FE491C05C3EA000DFDC2 /* AppDelegate.m */,
 				4997FE4B1C05C3EA000DFDC2 /* ViewController.h */,
@@ -244,8 +312,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				4997FE551C05C3EA000DFDC2 /* LaunchScreen.storyboard in Resources */,
+				498CCA691C11653800B8276A /* bright.png in Resources */,
+				498CCA6A1C11653800B8276A /* effect.png in Resources */,
 				4997FE521C05C3EA000DFDC2 /* Assets.xcassets in Resources */,
+				498CCA6B1C11653800B8276A /* finish.png in Resources */,
 				4997FE501C05C3EA000DFDC2 /* Main.storyboard in Resources */,
+				498CCA6E1C11653800B8276A /* rotation.png in Resources */,
+				498CCA6F1C11653800B8276A /* shoot.png in Resources */,
+				498CCA6C1C11653800B8276A /* recMark.png in Resources */,
+				498CCA701C11653800B8276A /* tap.png in Resources */,
+				498CCA6D1C11653800B8276A /* release.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +489,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Movie/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.logbar.ring.Movie;
@@ -424,6 +504,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Movie/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.logbar.ring.Movie;
@@ -498,6 +582,7 @@
 				4997FE711C05C3EB000DFDC2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4997FE721C05C3EB000DFDC2 /* Build configuration list for PBXNativeTarget "MovieTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +591,7 @@
 				4997FE741C05C3EB000DFDC2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4997FE751C05C3EB000DFDC2 /* Build configuration list for PBXNativeTarget "MovieUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +600,7 @@
 				4997FE771C05C3EB000DFDC2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
